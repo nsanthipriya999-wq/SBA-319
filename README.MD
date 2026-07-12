@@ -41,7 +41,8 @@ Example fields:
 •	applicationDeadline
 •	applicationFee
 •	website
-Applications
+
+#Applications
 Stores applications submitted by students.
 Example fields:
 •	studentId
