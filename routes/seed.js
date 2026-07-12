@@ -67,6 +67,7 @@ const applicationData = student.map((studentDat, index) => ({
 }));
 
 await Applications.insertMany(applicationData);
+console.log(student.map(s => s._id));
 res.send("Database seeded successfully");
 
 } catch (error) {

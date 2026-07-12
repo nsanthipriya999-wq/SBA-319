@@ -65,8 +65,22 @@ export async function getApplicationsByStatus(req,res){
         res.status(500).json({error:err.message});
     }
 };
+//---------GET Applications by Specific student Id--------------------------------------
+//-------http://localhost:3000/applications/student/:studentId------------------
 
+export async function getApplicationsByStudentId(req,res){
+    try{
+        const result=await Application.find({student:req.params.studentId}).populate("student").populate("college");
+        if(result.length===0)
+        {
+            return res.status(404).json({message:"Application not found"});
+        }
+        res.json(result);
+    }catch(err){
+        res.status(500).json({error:err.message});
+    }
 
+};
 
 
 

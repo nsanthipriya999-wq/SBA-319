@@ -11,15 +11,18 @@ import {
     getApplications,
     getApplicationsById,
     getApplicationsByStatus,
+    getApplicationsByStudentId,
     createApplication,
     updateApplication,
     deleteApplication
+
 } from "../controllers/applicationlogic.js";
 
 
 app.get("/", getApplications);
-app.get("/:id", getApplicationsById);
 app.get("/status/:status",getApplicationsByStatus);
+app.get("/student/:studentId",getApplicationsByStudentId)
+app.get("/:id", getApplicationsById);
 app.post("/",createApplication);
 app.patch("/:id",updateApplication);
 app.delete("/:id",deleteApplication);
