@@ -45,14 +45,14 @@ notes:{
  {timestamps:true}
 
 
-
 );
 applicationSchema.index({status:1});
 
 export default mongoose.model("Application", applicationSchema);
 
+/*-------------------------------------------------------------------------------------
+/* -----Validation----------------------------------------------------------------------
 
-/* -----Validation-----------------
 sample data:
 {
   "student": "6a52b6d869e022b74412db8d",

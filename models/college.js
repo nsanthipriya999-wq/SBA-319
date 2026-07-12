@@ -1,3 +1,4 @@
+//-----------------------------College Collection Schema-------------------------------------
 import mongoose from "mongoose";
 const collegeSchema= new mongoose.Schema(
     {
@@ -121,4 +122,61 @@ MONGODB Validation done in COMPASS
 
 
 Action set to 'error', LEVEL to 'strict'
+
+
+validation set through MONGODB shell
+db.runCommand({
+  collMod: "students",
+  validator: {
+    $jsonSchema: {
+      bsonType: "object",
+      required: [
+        "firstName",
+        "lastName",
+        "email",
+        "graduationYear",
+        "gpa"
+      ],
+      properties: {
+        firstName: {
+          bsonType: "string",
+          minLength: 2
+        },
+        lastName: {
+          bsonType: "string",
+          minLength: 2
+        },
+        email: {
+          bsonType: "string",
+          pattern: "^.+@.+\\..+$"
+        },
+        graduationYear: {
+          bsonType: "int",
+          minimum: 2025,
+          maximum: 2035
+        },
+        gpa: {
+          bsonType: ["double", "int"],
+          minimum: 0,
+          maximum: 4
+        }
+      }
+    }
+  },
+  validationLevel: "strict",
+  validationAction: "error"
+});
+
+Response
+{
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1783893007, i: 2 }),
+    signature: {
+      hash: Binary.createFromBase64('9+ln4Egl2EXjSXk/Tu3yjCT2CJA=', 0),
+      keyId: Long('7632001578974576652')
+    }
+  },
+  operationTime: Timestamp({ t: 1783893007, i: 2 })
+}
 */

@@ -1,6 +1,7 @@
 
 import College from '../models/college.js';
-//-------------------Read All Applications (getApplications())----------------------------------------
+//------------------------------ GET Request-------------------------------------------
+// -------------http://localhost:3000/colleges--------------------------------------------
 export async function getColleges(req,res){
     try{                                       //retrieves  full document
         const applications=await College.find();
@@ -11,20 +12,24 @@ export async function getColleges(req,res){
         res.status(500).json({error:err.message});
     }
 };
-//-------------------Get one Application (getApplicationById())---------------------------
+//-------------------Get Request to read colleges by ID-------------------------
+// -------------------http://localhost:3000/colleges/:id----------------------------------
+
 export async function getCollegesById(req,res){
     try{
         const result=await College.findById(req.params.id);
         if(!result)
         {
-            return res.status(404).json({message:"Application not found"});
+            return res.status(404).json({message:"College not found"});
         }
         res.json(result);
     }catch(err){
         res.status(500).json({error:err.message});
     }
 };
-//------------------------------------create new Application createApplication()-------------- 
+//-----------------POST--Request to create a  new College------------------------------
+// --------------------------- http://localhost:3000/colleges--------------------------
+
 export async function createCollege(req, res) {
     try {
 
@@ -39,7 +44,8 @@ export async function createCollege(req, res) {
         return res.status(400).json({ error: err.message });
     }
 };
-//---------------------Update Application  (updateApplication())---------------------------------------
+//---------------------Update College (PATCH request)------------------------------------
+// ---------------http://localhost:3000/colleges/:id--------------------------------------
 
 export async function updateCollege(req, res) {
     try {
@@ -56,13 +62,15 @@ export async function updateCollege(req, res) {
     }
 };
 
-//----------------Delete Application function (deleteApplication())--------------------------------------------
+//----------------Delete Request for deleting college by Id------------------------
+// --------------------http://localhost:3000/colleges/:id------------------------------------
+
 export async function deleteCollege(req, res) {
     try {
         console.log(req.body);
         const result = await College.findByIdAndDelete(req.params.id);
         if (!result) {
-            res.status(404).send("Application not found");
+            res.status(404).send("College not found");
         }
         else{
             res.status(200).json(result);
