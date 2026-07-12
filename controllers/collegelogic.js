@@ -32,7 +32,7 @@ export async function createCollege(req, res) {
         const result = new College (req.body);
 
         await result.save();
-        return res.status(201).json(application);
+        return res.status(201).json(result);
 
     } catch (err) {
 
