@@ -1,6 +1,7 @@
 #College Application Tracker API
 
 The College Application Tracker API is a RESTful backend application built with Node.js, Express.js, MongoDB, and Mongoose. It helps students organize and manage their college applications by storing student information, college details, and application records.
+
 The API supports full CRUD (Create, Read, Update, Delete) functionality and demonstrates MongoDB data modeling, indexing, validation, and relationships between collections.
 
 
@@ -81,4 +82,23 @@ GET	                       http://localhost:3000/applications/status/:status	   
 POST	                   http://localhost:3000/applications	                      Add a new application
 PUT	                       http://localhost:3000/applications/:id	                  Update an application
 DELETE	                   http://localhost:3000/applications/:id	                  Delete an application
+
+#MongoDB Indexes
+
+Indexes are used to improve query performance on frequently searched fields.
+
+#Students
+•	email (unique)
+
+#Colleges
+
+•	name
+•	state
+
+#Applications
+•	studentId
+•	collegeId
+•	status
+
+
 
