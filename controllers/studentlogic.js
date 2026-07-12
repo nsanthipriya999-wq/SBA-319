@@ -1,6 +1,7 @@
 
 import Student from '../models/student.js';
-//-------------------Read All Students (getStudents())----------------------------------------
+//------------GET-------Read All Students (getStudents())--------------------
+// ----------------------http://localhost:3000/students	--------------------
 export async function getStudents(req,res){
     try{                                       //retrieves  full document
         const result=await Student.find();
@@ -11,7 +12,9 @@ export async function getStudents(req,res){
         res.status(500).json({error:err.message});
     }
 };
-//-------------------Get one  Student (getStudentById())---------------------------
+//-------------------Get one  Student (getStudentById())-----------------------
+// --------------------http://localhost:3000/students/:id-----------------------
+
 export async function getStudentsById(req,res){
     try{
         const result=await Student.findById(req.params.id);
@@ -24,7 +27,9 @@ export async function getStudentsById(req,res){
         res.status(500).json({error:err.message});
     }
 };
-//------------------------------------create new Student createStudent()-------------- 
+//-------------------POST----create new Student createStudent()---------------------
+// -------------------------http://localhost:3000/students---------------------- 
+
 export async function createStudent(req, res) {
     try {
 
@@ -39,7 +44,8 @@ export async function createStudent(req, res) {
         return res.status(400).json({ error: err.message });
     }
 };
-//---------------------Update Student  (updateStudent())---------------------------------------
+//---------------PATCH------Update Student  (updateStudent())----------------------------------
+// -----------------------------http://localhost:3000/students/:id------------------------
 
 export async function updateStudent(req, res) {
     try {
@@ -56,7 +62,8 @@ export async function updateStudent(req, res) {
     }
 };
 
-//----------------Delete Student function (deleteStudent())--------------------------------------------
+//--------DELETE--------Delete Student function (deleteStudent())-------------------------
+// -------------------http://localhost:3000/students/:id-----------------------------------
 export async function deleteStudent(req, res) {
     try {
         console.log(req.body);
