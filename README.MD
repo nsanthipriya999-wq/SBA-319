@@ -64,12 +64,12 @@ DELETE	       http://localhost:3000/students/:id	                               
 
 
 #Colleges
-Method	Route	                                                                    Description
-GET	/colleges	Get all colleges
-GET	/colleges/:id	Get a college by ID
-POST	/colleges	Add a new college
-PUT	/colleges/:id	Update a college
-DELETE	/colleges/:id	Delete a college
+Method	                        Route	                                             Description
+GET	                       http://localhost:3000/colleges	                      Get all colleges
+GET	                       http://localhost:3000/colleges/:id	                  Get a college by ID
+POST	                   http://localhost:3000/colleges	                      Add a new college
+PUT	                       http://localhost:3000/colleges/:id	                  Update a college
+DELETE	                   http://localhost:3000/colleges/:id	                  Delete a college
 
 
 
