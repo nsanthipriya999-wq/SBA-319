@@ -108,8 +108,6 @@ Validation is implemented within each schema using required fields, unique const
 
 
 •	Required student name and email
-   a` (6) is more than maximum allowed value (4)."
-       }
 •	Unique email addresses
 •	Valid email format
 •	Application status and type limited to predefined values.
