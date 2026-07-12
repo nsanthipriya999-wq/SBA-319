@@ -2,7 +2,7 @@
 
 The College Application Tracker API is a RESTful backend application built with Node.js, Express.js, MongoDB, and Mongoose. It helps students organize and manage their college applications by storing student information, college details, and application records.
 
-The API supports full CRUD (Create, Read, Update, Delete) functionality and demonstrates MongoDB data modeling, indexing, validation, and relationships between collections.
+The API supports full CRUD (Create, Read, Update, Delete) functionality for three collections students,applications and colleges and demonstrates MongoDB data modeling, indexing, validation, and relationships between collections.
 
 
 Technologies Used
@@ -46,6 +46,9 @@ Example fields:
 
 #Applications
 Stores applications submitted by students.
+Applications connect students and  colleges.
+Applications uses ObjectId references.
+
 Example fields:
 •	studentId
 •	collegeId
@@ -53,6 +56,13 @@ Example fields:
 •	applicationDate
 •	decisionDate
 •	notes
+
+#Database Relationships
+Student  --------\
+                  \
+                   Application store references to student ObjectId and College ObjectId. 
+                  /
+College  --------/
 
 #API Routes
 
@@ -121,8 +131,10 @@ Validation is implemented within each schema using required fields, unique const
 
 #MongoDB Validation(Database side)
 
-MongoDB collection validators enforce required fields and acceptable values to ensure database consistency even if data is inserted outside the application.(Done in MongoDB Compass defined with JSON Schema validator along with setting Action and level values.)
+MongoDB collection validators enforce required fields and acceptable values to ensure database consistency even if data is inserted outside the application.Validation done in MongoDB Compass using Validation tab defined with JSON Schema validator along with setting Action and level values and also collmod operator in mongosb shell for college schema
 
+#Testing
+Testing of all above API routes done using Thunder Client.
 
 
 Thank you!
