@@ -52,5 +52,24 @@ Example fields:
 •	decisionDate
 •	notes
 
+#API Routes
+
+#Students
+Method	        Route	                                                           Description
+GET	           http://localhost:3000/students	                                   Get all students
+GET	           http://localhost:3000/students/:id	                               Get a student by ID
+POST	       http://localhost:3000/students	                                   Create a new student
+PATCH	       http://localhost:3000/students/:id	                               Update a student
+DELETE	       http://localhost:3000/students/:id	                               Delete a student
+
+
+#Colleges
+Method	Route	                                                                    Description
+GET	/colleges	Get all colleges
+GET	/colleges/:id	Get a college by ID
+POST	/colleges	Add a new college
+PUT	/colleges/:id	Update a college
+DELETE	/colleges/:id	Delete a college
+
 
 
