@@ -5,16 +5,19 @@ const studentSchema=new mongoose.Schema(
   firstName:{
     type:String,
     required:true,
+    trim:true;
   },
   lastName:{
     type:String,
     required:true,
+    trim:true;
   },
   email:{
     type:String,
     required:true,
     unique:true,
     lowercase:true,
+    trim:true,
      match: [/^\S+@\S+\.\S+$/, "Please enter a valid email address"]         //regex validation for email
   },
   graduationYear:{
@@ -32,7 +35,7 @@ const studentSchema=new mongoose.Schema(
 );
 
 
-
+studentSchema.index({email:1});                   //Added an index on email.
 export default mongoose.model("Student", studentSchema);
 
 
