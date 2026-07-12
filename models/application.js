@@ -50,3 +50,4 @@ notes:{
 applicationSchema.index({status:1});
 
 export default mongoose.model("Application", applicationSchema);
+

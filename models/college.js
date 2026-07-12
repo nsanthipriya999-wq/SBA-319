@@ -48,8 +48,77 @@ collegeSchema.index({name:1});                          //create an index on nam
 collegeSchema.index({ state: 1 });                     //creates an index on state
 export default mongoose.model("College", collegeSchema);
 
+/*-----sample validation data---------------
+{ "name": "", 
+ "city": "Boston", 
+ "state": "Massachusetts", 
+ "applicationFee": -20, 
+ "acceptanceRate": 150, 
+ "website": "google.com" }
+
+ route: POST http://localhost:3000/colleges
+ Response:
+
+{
+  "error": "College validation failed: applicationDeadline: 
+  Path `applicationDeadline` is required., 
+  name: Path `name` is required., applicationFee: 
+  Path `applicationFee` (-20) is less than minimum allowed value (0).,
+   acceptanceRate: Path `acceptanceRate` (150) is more than maximum allowed value (100)."
+}
 
 
+MONGODB Validation done in COMPASS 
+
+{
+  $jsonSchema: {
+    bsonType: 'object',
+    required: [
+      'name',
+      'city',
+      'state',
+      'applicationDeadline',
+      'website'
+    ],
+    properties: {
+      name: {
+        bsonType: 'string',
+        minLength: 3
+      },
+      city: {
+        bsonType: 'string'
+      },
+      state: {
+        bsonType: 'string',
+        minLength: 2,
+        maxLength: 2
+      },
+      applicationDeadline: {
+        bsonType: 'date'
+      },
+      applicationFee: {
+        bsonType: [
+          'int',
+          'double'
+        ],
+        minimum: 0
+      },
+      acceptanceRate: {
+        bsonType: [
+          'int',
+          'double'
+        ],
+        minimum: 0,
+        maximum: 100
+      },
+      website: {
+        bsonType: 'string',
+        pattern: '^https?://'
+      }
+    }
+  }
+}
 
 
-
+Action set to 'warning', LEVEL to 'strict'
+*/

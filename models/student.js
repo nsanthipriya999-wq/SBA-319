@@ -15,6 +15,7 @@ const studentSchema=new mongoose.Schema(
     required:true,
     unique:true,
     lowercase:true
+    
   },
   graduationYear:{
     type:Number,
