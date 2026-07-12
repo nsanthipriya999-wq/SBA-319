@@ -72,4 +72,11 @@ PUT	                       http://localhost:3000/colleges/:id	                  
 DELETE	                   http://localhost:3000/colleges/:id	                  Delete a college
 
 
+#Applications
+Method	                        Route	                                               Description
+GET	                       http://localhost:3000/applications	                      Get all applications
+GET	                       http://localhost:3000/applications/:id	                  Get an application by ID
+POST	                   http://localhost:3000/applications	                      Add a new application
+PUT	                       http://localhost:3000/applications/:id	                  Update an application
+DELETE	                   http://localhost:3000/applications/:id	                  Delete an application
 
