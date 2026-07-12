@@ -5,7 +5,7 @@ import Applications from "../models/application.js";
 import Students from "../models/student.js";
 import Colleges from "../models/college.js";
 const router=express.Router();
-router.get("/", async (req,res)=>{
+router.post("/", async (req,res)=>{
 try{
    await Students.deleteMany({});
 await Colleges.deleteMany({});
@@ -56,8 +56,8 @@ const majors = [
 ];
 
 
-const applicationData = student.map((studentDoc, index) => ({
-  student: studentDoc._id,
+const applicationData = student.map((studentDat, index) => ({
+  student: studentDat._id,
   college: college[index]._id,
   major: majors[index],
   status: statuses[index % statuses.length],

@@ -53,7 +53,18 @@ export async function getApplicationsById(req,res){
 //-------------------------Get Application By Status---------------------------
 //-----------------------http://localhost:3000/applications/status/:status
 
-
+export async function getApplicationsByStatus(req,res){
+    try{
+        const result=await Application.find({status:req.params.status}).populate("student").populate("college");
+        if(result.length===0)
+        {
+            return res.status(404).json({message:"Application not found"});
+        }
+        res.json(result);
+    }catch(err){
+        res.status(500).json({error:err.message});
+    }
+};
 
 
 

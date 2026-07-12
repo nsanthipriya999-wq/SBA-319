@@ -10,6 +10,7 @@ import {
     
     getApplications,
     getApplicationsById,
+    getApplicationsByStatus,
     createApplication,
     updateApplication,
     deleteApplication
@@ -18,6 +19,7 @@ import {
 
 app.get("/", getApplications);
 app.get("/:id", getApplicationsById);
+app.get("/status/:status",getApplicationsByStatus);
 app.post("/",createApplication);
 app.patch("/:id",updateApplication);
 app.delete("/:id",deleteApplication);
