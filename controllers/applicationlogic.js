@@ -68,7 +68,7 @@ export async function createApplication(req, res) {
     try {
 
         console.log(req.body);
-        const application = new Application (req.body);
+        const application = new Application(req.body);
 
         await application.save();
         return res.status(201).json(application);

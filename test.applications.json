@@ -1,0 +1,654 @@
+[{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3c7"
+  },
+  "student": {
+    "$oid": "6a53bebaa35cc6a184a9c3b3"
+  },
+  "college": {
+    "$oid": "6a53bebaa35cc6a184a9c39f"
+  },
+  "major": "Computer Science",
+  "status": "Planning",
+  "applicationType": "Regular",
+  "submittedDate": {
+    "$date": "2026-07-12T16:20:10.526Z"
+  },
+  "notes": "Application for Computer Science",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.528Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.528Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3c8"
+  },
+  "student": {
+    "$oid": "6a53bebaa35cc6a184a9c3b4"
+  },
+  "college": {
+    "$oid": "6a53bebaa35cc6a184a9c3a0"
+  },
+  "major": "Engineering",
+  "status": "Started",
+  "applicationType": "Early Action",
+  "submittedDate": {
+    "$date": "2026-07-12T16:20:10.526Z"
+  },
+  "notes": "Application for Engineering",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.528Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.528Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3c9"
+  },
+  "student": {
+    "$oid": "6a53bebaa35cc6a184a9c3b5"
+  },
+  "college": {
+    "$oid": "6a53bebaa35cc6a184a9c3a1"
+  },
+  "major": "Biology",
+  "status": "Submitted",
+  "applicationType": "Early Decision",
+  "submittedDate": {
+    "$date": "2026-07-12T16:20:10.526Z"
+  },
+  "notes": "Application for Biology",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.528Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.528Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3ca"
+  },
+  "student": {
+    "$oid": "6a53bebaa35cc6a184a9c3b6"
+  },
+  "college": {
+    "$oid": "6a53bebaa35cc6a184a9c3a2"
+  },
+  "major": "Data Science",
+  "status": "Accepted",
+  "applicationType": "Rolling",
+  "submittedDate": {
+    "$date": "2026-07-12T16:20:10.526Z"
+  },
+  "notes": "Application for Data Science",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.528Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.528Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3cb"
+  },
+  "student": {
+    "$oid": "6a53bebaa35cc6a184a9c3b7"
+  },
+  "college": {
+    "$oid": "6a53bebaa35cc6a184a9c3a3"
+  },
+  "major": "Business",
+  "status": "Rejected",
+  "applicationType": "Regular",
+  "submittedDate": {
+    "$date": "2026-07-12T16:20:10.526Z"
+  },
+  "notes": "Application for Business",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.528Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.528Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3cc"
+  },
+  "student": {
+    "$oid": "6a53bebaa35cc6a184a9c3b8"
+  },
+  "college": {
+    "$oid": "6a53bebaa35cc6a184a9c3a4"
+  },
+  "major": "Psychology",
+  "status": "Waitlisted",
+  "applicationType": "Early Action",
+  "submittedDate": {
+    "$date": "2026-07-12T16:20:10.526Z"
+  },
+  "notes": "Application for Psychology",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.528Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.528Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3cd"
+  },
+  "student": {
+    "$oid": "6a53bebaa35cc6a184a9c3b9"
+  },
+  "college": {
+    "$oid": "6a53bebaa35cc6a184a9c3a5"
+  },
+  "major": "Nursing",
+  "status": "Planning",
+  "applicationType": "Early Decision",
+  "submittedDate": {
+    "$date": "2026-07-12T16:20:10.526Z"
+  },
+  "notes": "Application for Nursing",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.528Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.528Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3ce"
+  },
+  "student": {
+    "$oid": "6a53bebaa35cc6a184a9c3ba"
+  },
+  "college": {
+    "$oid": "6a53bebaa35cc6a184a9c3a6"
+  },
+  "major": "Mathematics",
+  "status": "Started",
+  "applicationType": "Rolling",
+  "submittedDate": {
+    "$date": "2026-07-12T16:20:10.526Z"
+  },
+  "notes": "Application for Mathematics",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.528Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.528Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3cf"
+  },
+  "student": {
+    "$oid": "6a53bebaa35cc6a184a9c3bb"
+  },
+  "college": {
+    "$oid": "6a53bebaa35cc6a184a9c3a7"
+  },
+  "major": "Physics",
+  "status": "Submitted",
+  "applicationType": "Regular",
+  "submittedDate": {
+    "$date": "2026-07-12T16:20:10.526Z"
+  },
+  "notes": "Application for Physics",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.528Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.528Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3d0"
+  },
+  "student": {
+    "$oid": "6a53bebaa35cc6a184a9c3bc"
+  },
+  "college": {
+    "$oid": "6a53bebaa35cc6a184a9c3a8"
+  },
+  "major": "Chemistry",
+  "status": "Accepted",
+  "applicationType": "Early Action",
+  "submittedDate": {
+    "$date": "2026-07-12T16:20:10.526Z"
+  },
+  "notes": "Application for Chemistry",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.528Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.528Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3d1"
+  },
+  "student": {
+    "$oid": "6a53bebaa35cc6a184a9c3bd"
+  },
+  "college": {
+    "$oid": "6a53bebaa35cc6a184a9c3a9"
+  },
+  "major": "Finance",
+  "status": "Rejected",
+  "applicationType": "Early Decision",
+  "submittedDate": {
+    "$date": "2026-07-12T16:20:10.526Z"
+  },
+  "notes": "Application for Finance",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.528Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.528Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3d2"
+  },
+  "student": {
+    "$oid": "6a53bebaa35cc6a184a9c3be"
+  },
+  "college": {
+    "$oid": "6a53bebaa35cc6a184a9c3aa"
+  },
+  "major": "Economics",
+  "status": "Waitlisted",
+  "applicationType": "Rolling",
+  "submittedDate": {
+    "$date": "2026-07-12T16:20:10.526Z"
+  },
+  "notes": "Application for Economics",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.528Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.528Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3d3"
+  },
+  "student": {
+    "$oid": "6a53bebaa35cc6a184a9c3bf"
+  },
+  "college": {
+    "$oid": "6a53bebaa35cc6a184a9c3ab"
+  },
+  "major": "Marketing",
+  "status": "Planning",
+  "applicationType": "Regular",
+  "submittedDate": {
+    "$date": "2026-07-12T16:20:10.526Z"
+  },
+  "notes": "Application for Marketing",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.528Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.528Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3d4"
+  },
+  "student": {
+    "$oid": "6a53bebaa35cc6a184a9c3c0"
+  },
+  "college": {
+    "$oid": "6a53bebaa35cc6a184a9c3ac"
+  },
+  "major": "Political Science",
+  "status": "Started",
+  "applicationType": "Early Action",
+  "submittedDate": {
+    "$date": "2026-07-12T16:20:10.526Z"
+  },
+  "notes": "Application for Political Science",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.528Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.528Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3d5"
+  },
+  "student": {
+    "$oid": "6a53bebaa35cc6a184a9c3c1"
+  },
+  "college": {
+    "$oid": "6a53bebaa35cc6a184a9c3ad"
+  },
+  "major": "Information Technology",
+  "status": "Submitted",
+  "applicationType": "Early Decision",
+  "submittedDate": {
+    "$date": "2026-07-12T16:20:10.526Z"
+  },
+  "notes": "Application for Information Technology",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.528Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.528Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3d6"
+  },
+  "student": {
+    "$oid": "6a53bebaa35cc6a184a9c3c2"
+  },
+  "college": {
+    "$oid": "6a53bebaa35cc6a184a9c3ae"
+  },
+  "major": "Mechanical Engineering",
+  "status": "Accepted",
+  "applicationType": "Rolling",
+  "submittedDate": {
+    "$date": "2026-07-12T16:20:10.526Z"
+  },
+  "notes": "Application for Mechanical Engineering",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.528Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.528Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3d7"
+  },
+  "student": {
+    "$oid": "6a53bebaa35cc6a184a9c3c3"
+  },
+  "college": {
+    "$oid": "6a53bebaa35cc6a184a9c3af"
+  },
+  "major": "Electrical Engineering",
+  "status": "Rejected",
+  "applicationType": "Regular",
+  "submittedDate": {
+    "$date": "2026-07-12T16:20:10.526Z"
+  },
+  "notes": "Application for Electrical Engineering",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.528Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.528Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3d8"
+  },
+  "student": {
+    "$oid": "6a53bebaa35cc6a184a9c3c4"
+  },
+  "college": {
+    "$oid": "6a53bebaa35cc6a184a9c3b0"
+  },
+  "major": "Environmental Science",
+  "status": "Waitlisted",
+  "applicationType": "Early Action",
+  "submittedDate": {
+    "$date": "2026-07-12T16:20:10.526Z"
+  },
+  "notes": "Application for Environmental Science",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.528Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.528Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3d9"
+  },
+  "student": {
+    "$oid": "6a53bebaa35cc6a184a9c3c5"
+  },
+  "college": {
+    "$oid": "6a53bebaa35cc6a184a9c3b1"
+  },
+  "major": "Architecture",
+  "status": "Planning",
+  "applicationType": "Early Decision",
+  "submittedDate": {
+    "$date": "2026-07-12T16:20:10.526Z"
+  },
+  "notes": "Application for Architecture",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.528Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.528Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3da"
+  },
+  "student": {
+    "$oid": "6a53bebaa35cc6a184a9c3c6"
+  },
+  "college": {
+    "$oid": "6a53bebaa35cc6a184a9c3b2"
+  },
+  "major": "Communications",
+  "status": "Started",
+  "applicationType": "Rolling",
+  "submittedDate": {
+    "$date": "2026-07-12T16:20:10.526Z"
+  },
+  "notes": "Application for Communications",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.528Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.528Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a5418d486c747e0e041b262"
+  },
+  "student": {
+    "$oid": "6a5416b7fdb3ee4fe1ba9e81"
+  },
+  "college": {
+    "$oid": "6a52b6d769e022b74412db7d"
+  },
+  "major": "Computer Science",
+  "status": "Planning",
+  "applicationType": "Early Decision",
+  "notes": "Preparing Early Decision application, essays, and recommendation letters.",
+  "createdAt": {
+    "$date": "2026-07-12T22:44:36.588Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T22:44:36.588Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a5418ee86c747e0e041b263"
+  },
+  "student": {
+    "$oid": "6a5416b7fdb3ee4fe1ba9e82"
+  },
+  "college": {
+    "$oid": "6a52b6d769e022b74412db7d"
+  },
+  "major": "Law",
+  "status": "Planning",
+  "applicationType": "Early Decision",
+  "notes": "Preparing Early Decision application, essays, and recommendation letters.",
+  "createdAt": {
+    "$date": "2026-07-12T22:45:02.248Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T22:45:02.248Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a541cc6cddf364028097b51"
+  },
+  "student": {
+    "$oid": "6a5416b7fdb3ee4fe1ba9e81"
+  },
+  "college": {
+    "$oid": "6a53bebaa35cc6a184a9c39f"
+  },
+  "major": "Computer Science",
+  "status": "Planning",
+  "applicationType": "Regular",
+  "notes": "Preparing application materials and essays.",
+  "createdAt": {
+    "$date": "2026-07-12T23:01:26.009Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T23:01:26.009Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a541cf1cddf364028097b52"
+  },
+  "student": {
+    "$oid": "6a5416b7fdb3ee4fe1ba9e82"
+  },
+  "college": {
+    "$oid": "6a53bebaa35cc6a184a9c39f"
+  },
+  "major": "LAW",
+  "status": "Planning",
+  "applicationType": "Regular",
+  "notes": "Preparing application materials and essays.",
+  "createdAt": {
+    "$date": "2026-07-12T23:02:09.730Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T23:02:09.730Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a541d15cddf364028097b53"
+  },
+  "student": {
+    "$oid": "6a5416b7fdb3ee4fe1ba9e82"
+  },
+  "college": {
+    "$oid": "6a53bebaa35cc6a184a9c3a4"
+  },
+  "major": "LAW",
+  "status": "Planning",
+  "applicationType": "Regular",
+  "notes": "Preparing application materials and essays.",
+  "createdAt": {
+    "$date": "2026-07-12T23:02:45.355Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T23:02:45.355Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a541d5acddf364028097b54"
+  },
+  "student": {
+    "$oid": "6a5416b7fdb3ee4fe1ba9e82"
+  },
+  "college": {
+    "$oid": "6a52b6d769e022b74412db80"
+  },
+  "major": "LAW",
+  "status": "Planning",
+  "applicationType": "Regular",
+  "notes": "Preparing application materials and essays.",
+  "createdAt": {
+    "$date": "2026-07-12T23:03:54.772Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T23:03:54.772Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a541d6acddf364028097b55"
+  },
+  "student": {
+    "$oid": "6a5416b7fdb3ee4fe1ba9e81"
+  },
+  "college": {
+    "$oid": "6a52b6d769e022b74412db80"
+  },
+  "major": "Computer Science",
+  "status": "Planning",
+  "applicationType": "Regular",
+  "notes": "Preparing application materials and essays.",
+  "createdAt": {
+    "$date": "2026-07-12T23:04:10.553Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T23:04:10.553Z"
+  },
+  "__v": 0
+}]

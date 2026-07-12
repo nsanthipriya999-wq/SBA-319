@@ -1,0 +1,374 @@
+[{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3b3"
+  },
+  "firstName": "Amy",
+  "lastName": "Johnson",
+  "email": "amy.johnson@example.com",
+  "graduationYear": 2026,
+  "gpa": 3.9,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.482Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.482Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3b4"
+  },
+  "firstName": "Brian",
+  "lastName": "Lee",
+  "email": "brian.lee@example.com",
+  "graduationYear": 2025,
+  "gpa": 3.7,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.482Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.482Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3b5"
+  },
+  "firstName": "Sophia",
+  "lastName": "Martinez",
+  "email": "sophia.martinez@example.com",
+  "graduationYear": 2026,
+  "gpa": 4,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.482Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.482Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3b6"
+  },
+  "firstName": "Michael",
+  "lastName": "Brown",
+  "email": "michael.brown@example.com",
+  "graduationYear": 2027,
+  "gpa": 3.5,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.482Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.482Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3b7"
+  },
+  "firstName": "Emma",
+  "lastName": "Davis",
+  "email": "emma.davis@example.com",
+  "graduationYear": 2026,
+  "gpa": 3.8,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.482Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.482Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3b8"
+  },
+  "firstName": "Daniel",
+  "lastName": "Wilson",
+  "email": "daniel.wilson@example.com",
+  "graduationYear": 2025,
+  "gpa": 3.6,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.482Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.482Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3b9"
+  },
+  "firstName": "Olivia",
+  "lastName": "Taylor",
+  "email": "olivia.taylor@example.com",
+  "graduationYear": 2027,
+  "gpa": 3.9,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.482Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.482Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3ba"
+  },
+  "firstName": "James",
+  "lastName": "Anderson",
+  "email": "james.anderson@example.com",
+  "graduationYear": 2026,
+  "gpa": 3.4,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.482Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.482Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3bb"
+  },
+  "firstName": "Charlotte",
+  "lastName": "Thomas",
+  "email": "charlotte.thomas@example.com",
+  "graduationYear": 2025,
+  "gpa": 3.8,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.482Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.482Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3bc"
+  },
+  "firstName": "Benjamin",
+  "lastName": "Moore",
+  "email": "benjamin.moore@example.com",
+  "graduationYear": 2026,
+  "gpa": 3.7,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.482Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.482Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3bd"
+  },
+  "firstName": "Mia",
+  "lastName": "Martin",
+  "email": "mia.martin@example.com",
+  "graduationYear": 2027,
+  "gpa": 4,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.482Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.482Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3be"
+  },
+  "firstName": "Lucas",
+  "lastName": "Jackson",
+  "email": "lucas.jackson@example.com",
+  "graduationYear": 2025,
+  "gpa": 3.5,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.482Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.482Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3bf"
+  },
+  "firstName": "Harper",
+  "lastName": "White",
+  "email": "harper.white@example.com",
+  "graduationYear": 2026,
+  "gpa": 3.9,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.482Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.482Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3c0"
+  },
+  "firstName": "Ethan",
+  "lastName": "Harris",
+  "email": "ethan.harris@example.com",
+  "graduationYear": 2027,
+  "gpa": 3.6,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.483Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.483Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3c1"
+  },
+  "firstName": "Grace",
+  "lastName": "Clark",
+  "email": "grace.clark@example.com",
+  "graduationYear": 2026,
+  "gpa": 3.8,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.483Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.483Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3c2"
+  },
+  "firstName": "Noah",
+  "lastName": "Lewis",
+  "email": "noah.lewis@example.com",
+  "graduationYear": 2025,
+  "gpa": 3.7,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.483Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.483Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3c3"
+  },
+  "firstName": "Isabella",
+  "lastName": "Walker",
+  "email": "isabella.walker@example.com",
+  "graduationYear": 2026,
+  "gpa": 3.9,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.483Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.483Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3c4"
+  },
+  "firstName": "Henry",
+  "lastName": "Hall",
+  "email": "henry.hall@example.com",
+  "graduationYear": 2027,
+  "gpa": 3.3,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.483Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.483Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3c5"
+  },
+  "firstName": "Ava",
+  "lastName": "Allen",
+  "email": "ava.allen@example.com",
+  "graduationYear": 2025,
+  "gpa": 3.8,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.483Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.483Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3c6"
+  },
+  "firstName": "William",
+  "lastName": "Young",
+  "email": "william.young@example.com",
+  "graduationYear": 2026,
+  "gpa": 3.6,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.483Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.483Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a5416b7fdb3ee4fe1ba9e81"
+  },
+  "firstName": "Kruthvik",
+  "lastName": "Maruboina",
+  "email": "km117@gmail.com",
+  "graduationYear": 2027,
+  "gpa": 4,
+  "createdAt": {
+    "$date": "2026-07-12T22:35:35.952Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T22:48:02.773Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a5416d1fdb3ee4fe1ba9e82"
+  },
+  "firstName": "Ananya",
+  "lastName": "Maruboina",
+  "email": "avm117@gmail.com",
+  "graduationYear": 2030,
+  "gpa": 4,
+  "createdAt": {
+    "$date": "2026-07-12T22:36:01.121Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T22:47:29.903Z"
+  },
+  "__v": 0
+}]

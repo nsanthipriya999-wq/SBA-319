@@ -1,0 +1,525 @@
+[{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c39f"
+  },
+  "name": "Massachusetts Institute of Technology",
+  "city": "Cambridge",
+  "state": "MA",
+  "applicationDeadline": {
+    "$date": "2026-01-01T00:00:00.000Z"
+  },
+  "applicationFee": 75,
+  "acceptanceRate": 4.8,
+  "website": "https://web.mit.edu",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.452Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.452Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3a0"
+  },
+  "name": "Stanford University",
+  "city": "Stanford",
+  "state": "CA",
+  "applicationDeadline": {
+    "$date": "2026-01-05T00:00:00.000Z"
+  },
+  "applicationFee": 90,
+  "acceptanceRate": 3.9,
+  "website": "https://www.stanford.edu",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.452Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.452Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3a1"
+  },
+  "name": "University of Michigan",
+  "city": "Ann Arbor",
+  "state": "MI",
+  "applicationDeadline": {
+    "$date": "2026-02-01T00:00:00.000Z"
+  },
+  "applicationFee": 65,
+  "acceptanceRate": 18,
+  "website": "https://umich.edu",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.452Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.452Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3a2"
+  },
+  "name": "University of California Berkeley",
+  "city": "Berkeley",
+  "state": "CA",
+  "applicationDeadline": {
+    "$date": "2026-01-15T00:00:00.000Z"
+  },
+  "applicationFee": 80,
+  "acceptanceRate": 14,
+  "website": "https://www.berkeley.edu",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.452Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.452Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3a3"
+  },
+  "name": "Georgia Institute of Technology",
+  "city": "Atlanta",
+  "state": "GA",
+  "applicationDeadline": {
+    "$date": "2026-01-10T00:00:00.000Z"
+  },
+  "applicationFee": 75,
+  "acceptanceRate": 16,
+  "website": "https://www.gatech.edu",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.452Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.452Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3a4"
+  },
+  "name": "Princeton University",
+  "city": "Princeton",
+  "state": "NJ",
+  "applicationDeadline": {
+    "$date": "2026-01-01T00:00:00.000Z"
+  },
+  "applicationFee": 80,
+  "acceptanceRate": 5.7,
+  "website": "https://www.princeton.edu",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.452Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.452Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3a5"
+  },
+  "name": "Harvard University",
+  "city": "Cambridge",
+  "state": "MA",
+  "applicationDeadline": {
+    "$date": "2026-01-01T00:00:00.000Z"
+  },
+  "applicationFee": 85,
+  "acceptanceRate": 4,
+  "website": "https://www.harvard.edu",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.452Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.452Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3a6"
+  },
+  "name": "Yale University",
+  "city": "New Haven",
+  "state": "CT",
+  "applicationDeadline": {
+    "$date": "2026-01-02T00:00:00.000Z"
+  },
+  "applicationFee": 80,
+  "acceptanceRate": 4.6,
+  "website": "https://www.yale.edu",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.452Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.452Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3a7"
+  },
+  "name": "Columbia University",
+  "city": "New York",
+  "state": "NY",
+  "applicationDeadline": {
+    "$date": "2026-01-04T00:00:00.000Z"
+  },
+  "applicationFee": 85,
+  "acceptanceRate": 3.9,
+  "website": "https://www.columbia.edu",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.452Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.452Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3a8"
+  },
+  "name": "New York University",
+  "city": "New York",
+  "state": "NY",
+  "applicationDeadline": {
+    "$date": "2026-01-05T00:00:00.000Z"
+  },
+  "applicationFee": 85,
+  "acceptanceRate": 12.5,
+  "website": "https://www.nyu.edu",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.452Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.452Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3a9"
+  },
+  "name": "Boston University",
+  "city": "Boston",
+  "state": "MA",
+  "applicationDeadline": {
+    "$date": "2026-01-06T00:00:00.000Z"
+  },
+  "applicationFee": 80,
+  "acceptanceRate": 19,
+  "website": "https://www.bu.edu",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.452Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.452Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3aa"
+  },
+  "name": "Northeastern University",
+  "city": "Boston",
+  "state": "MA",
+  "applicationDeadline": {
+    "$date": "2026-01-10T00:00:00.000Z"
+  },
+  "applicationFee": 75,
+  "acceptanceRate": 18,
+  "website": "https://www.northeastern.edu",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.452Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.452Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3ab"
+  },
+  "name": "Rutgers University",
+  "city": "New Brunswick",
+  "state": "NJ",
+  "applicationDeadline": {
+    "$date": "2026-01-15T00:00:00.000Z"
+  },
+  "applicationFee": 70,
+  "acceptanceRate": 68,
+  "website": "https://www.rutgers.edu",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.452Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.452Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3ac"
+  },
+  "name": "Penn State University",
+  "city": "University Park",
+  "state": "PA",
+  "applicationDeadline": {
+    "$date": "2026-01-15T00:00:00.000Z"
+  },
+  "applicationFee": 65,
+  "acceptanceRate": 55,
+  "website": "https://www.psu.edu",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.453Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.453Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3ad"
+  },
+  "name": "Temple University",
+  "city": "Philadelphia",
+  "state": "PA",
+  "applicationDeadline": {
+    "$date": "2026-02-01T00:00:00.000Z"
+  },
+  "applicationFee": 55,
+  "acceptanceRate": 72,
+  "website": "https://www.temple.edu",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.453Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.453Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3ae"
+  },
+  "name": "Drexel University",
+  "city": "Philadelphia",
+  "state": "PA",
+  "applicationDeadline": {
+    "$date": "2026-01-15T00:00:00.000Z"
+  },
+  "applicationFee": 65,
+  "acceptanceRate": 79,
+  "website": "https://www.drexel.edu",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.453Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.453Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3af"
+  },
+  "name": "University of Maryland",
+  "city": "College Park",
+  "state": "MD",
+  "applicationDeadline": {
+    "$date": "2026-01-20T00:00:00.000Z"
+  },
+  "applicationFee": 75,
+  "acceptanceRate": 44,
+  "website": "https://www.umd.edu",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.453Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.453Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3b0"
+  },
+  "name": "Johns Hopkins University",
+  "city": "Baltimore",
+  "state": "MD",
+  "applicationDeadline": {
+    "$date": "2026-01-03T00:00:00.000Z"
+  },
+  "applicationFee": 75,
+  "acceptanceRate": 7,
+  "website": "https://www.jhu.edu",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.453Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.453Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3b1"
+  },
+  "name": "Syracuse University",
+  "city": "Syracuse",
+  "state": "NY",
+  "applicationDeadline": {
+    "$date": "2026-01-05T00:00:00.000Z"
+  },
+  "applicationFee": 85,
+  "acceptanceRate": 59,
+  "website": "https://www.syracuse.edu",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.453Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.453Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53bebaa35cc6a184a9c3b2"
+  },
+  "name": "Stevens Institute of Technology",
+  "city": "Hoboken",
+  "state": "NJ",
+  "applicationDeadline": {
+    "$date": "2026-01-15T00:00:00.000Z"
+  },
+  "applicationFee": 70,
+  "acceptanceRate": 46,
+  "website": "https://www.stevens.edu",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-07-12T16:20:10.453Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:20:10.453Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a53c05d0d9f771b2b4f206b"
+  },
+  "name": "Purdue University",
+  "city": "West Lafayette",
+  "state": "IN",
+  "applicationDeadline": {
+    "$date": "2026-01-15T00:00:00.000Z"
+  },
+  "applicationFee": 60,
+  "acceptanceRate": 53.7,
+  "website": "https://www.purdue.edu",
+  "createdAt": {
+    "$date": "2026-07-12T16:27:09.719Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:27:09.719Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a53c0fc0d9f771b2b4f206d"
+  },
+  "name": "University of Texas at Austin",
+  "city": "Austin",
+  "state": "TX",
+  "applicationDeadline": {
+    "$date": "2026-12-01T00:00:00.000Z"
+  },
+  "applicationFee": 75,
+  "acceptanceRate": 31.4,
+  "website": "https://www.utexas.edu",
+  "createdAt": {
+    "$date": "2026-07-12T16:29:48.572Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:29:48.572Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a53c150d024cea6504ecf8b"
+  },
+  "name": "University of Texas at Austin",
+  "city": "Austin",
+  "state": "TX",
+  "applicationDeadline": {
+    "$date": "2026-12-01T00:00:00.000Z"
+  },
+  "applicationFee": 75,
+  "acceptanceRate": 31.4,
+  "website": "https://www.utexas.edu",
+  "createdAt": {
+    "$date": "2026-07-12T16:31:12.273Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:31:12.273Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a53c176d024cea6504ecf8c"
+  },
+  "name": "University of Wisconsin-Madison",
+  "city": "Madison",
+  "state": "WI",
+  "applicationDeadline": {
+    "$date": "2026-01-10T00:00:00.000Z"
+  },
+  "applicationFee": 70,
+  "acceptanceRate": 49.1,
+  "website": "https://www.wisc.edu",
+  "createdAt": {
+    "$date": "2026-07-12T16:31:50.214Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T16:31:50.214Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a541661fdb3ee4fe1ba9e80"
+  },
+  "name": "Ohio State University",
+  "city": "Columbus",
+  "state": "OH",
+  "applicationDeadline": {
+    "$date": "2026-01-20T00:00:00.000Z"
+  },
+  "applicationFee": 70,
+  "acceptanceRate": 57.2,
+  "website": "https://www.osu.edu",
+  "createdAt": {
+    "$date": "2026-07-12T22:34:09.703Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-12T22:34:09.703Z"
+  },
+  "__v": 0
+}]
