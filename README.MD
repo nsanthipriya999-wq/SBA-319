@@ -12,4 +12,15 @@ Technologies Used
 •	dotenv
 •	Nodemon
 
+Features
+•	Manage student profiles
+•	Stores college information
+•	Track application status
+•	Full CRUD operations for all collections colleges,applications and students.
+•	MongoDB indexes for efficient queries
+•	Validation using both MongoDB and Mongoose
+•	Sample data for testing.
+
+
+
 
