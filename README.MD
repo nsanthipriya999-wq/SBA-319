@@ -100,5 +100,21 @@ Indexes are used to improve query performance on frequently searched fields.
 •	collegeId
 •	status
 
+#Validation
+
+Mongoose Validation
+Validation is implemented within each schema using required fields, unique constraints, enums, and regular expressions where appropriate.
+
+
+•	Required student name and email
+•	Unique email addresses
+•	Valid email format
+•	Application status and type limited to predefined values.
+     enum:["Planning","Started","Submitted","Accepted","Rejected","Waitlisted",]
+     enum:["Regular","Rolling","Open","Early Action","Early Decision","Early Evaluation",].
+
+
+#MongoDB Validation
+MongoDB collection validators enforce required fields and acceptable values to ensure database consistency even if data is inserted outside the application.
 
 
