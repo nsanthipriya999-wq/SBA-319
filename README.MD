@@ -1,11 +1,11 @@
-#College Application Tracker API
+### College Application Tracker API
 
 The College Application Tracker API is a RESTful backend application built with Node.js, Express.js, MongoDB, and Mongoose. It helps students organize and manage their college applications by storing student information, college details, and application records.
 
 The API supports full CRUD (Create, Read, Update, Delete) functionality for three collections students,applications and colleges and demonstrates MongoDB data modeling, indexing, validation, and relationships between collections.
 
 
-Technologies Used
+## Technologies Used
 •	Node.js
 •	Express.js
 •	MongoDB
@@ -13,7 +13,7 @@ Technologies Used
 •	dotenv
 •	Nodemon
 
-Features
+## Features
 •	Manage student profiles
 •	Stores college information
 •	Track application status
@@ -23,9 +23,9 @@ Features
 •	Sample data for testing.
 
 
-#Database Collections
+## Database Collections
 
-#Students
+## Students
 
 Stores information about each student.
 Example fields:
@@ -34,7 +34,7 @@ Example fields:
 •	email
 •	graduationYear
 
-#Colleges
+## Colleges
 Stores information about colleges.
 Example fields:
 •	name
@@ -44,7 +44,7 @@ Example fields:
 •	applicationFee
 •	website
 
-#Applications
+## Applications
 Stores applications submitted by students.
 Applications connect students and  colleges.
 Applications uses ObjectId references.
@@ -57,19 +57,19 @@ Example fields:
 •	decisionDate
 •	notes
 
-#Database Relationships
+## Database Relationships
 Student  --------\
                   \
                    Application store references to student ObjectId and College ObjectId. 
                   /
 College  --------/
 
-#API Routes
+## API Routes
 
 #Seed route to load data using data.js file
 POST http://localhost:3000/seed 
 
-#Students
+## Students
 Method	        Route	                                                           Description
 GET	           http://localhost:3000/students	                                   Get all students
 GET	           http://localhost:3000/students/:id	                               Get a student by ID
@@ -78,7 +78,7 @@ PATCH	       http://localhost:3000/students/:id	                               U
 DELETE	       http://localhost:3000/students/:id	                               Delete a student
 
 
-#Colleges
+## Colleges
 Method	                        Route	                                             Description
 GET	                       http://localhost:3000/colleges	                      Get all colleges
 GET	                       http://localhost:3000/colleges/:id	                  Get a college by ID
@@ -87,7 +87,7 @@ PATCH	                       http://localhost:3000/colleges/:id	                
 DELETE	                   http://localhost:3000/colleges/:id	                  Delete a college
 
 
-#Applications
+## Applications
 Method	                        Route	                                               Description
 GET	                       http://localhost:3000/applications	                      Get all applications
 GET	                       http://localhost:3000/applications/:id	                  Get an application by ID
@@ -97,27 +97,27 @@ POST	                   http://localhost:3000/applications	                     
 PATCH                      http://localhost:3000/applications/:id	                  Update an application
 DELETE	                   http://localhost:3000/applications/:id	                  Delete an application
 
-#MongoDB Indexes
+## MongoDB Indexes
 
 Indexes are used to improve query performance on frequently searched fields.
 
-#Students
+## Students
 
 •	email (unique)
 
-#Colleges
+## Colleges
 
 •	name
 •	state
 
-#Applications
+## Applications
 •	studentId
 •	collegeId
 •	status
 
-#Validation
+## Validation
 
-Mongoose Validation(Application side)
+## Mongoose Validation(Application side)
 Validation is implemented within each schema using required fields, unique constraints, enums, and regular expressions where appropriate.
 
 
@@ -129,7 +129,7 @@ Validation is implemented within each schema using required fields, unique const
      enum:["Regular","Rolling","Open","Early Action","Early Decision","Early Evaluation",].
 
 
-#MongoDB Validation(Database side)
+## MongoDB Validation(Database side)
 
 MongoDB collection validators are used to enforce required fields and acceptable values, ensuring database consistency even when data is inserted outside of the application.
 
@@ -147,7 +147,7 @@ The validators enforce rules such as:
  Values must fall within acceptable ranges
  Invalid documents are rejected before being stored
 
-Example validations:
+## Example validations:
  Student GPA must be between 0 and 4
  Graduation year must be within the allowed range
  College application fee cannot be negative
@@ -155,7 +155,7 @@ Example validations:
 
 
 
-#Testing
+## Testing
 Testing of all above API routes done using Thunder Client.
 
 POST requests
@@ -181,6 +181,7 @@ test_data
   `test.colleges.json` — contains all college records
   `test.applications.json` — contains all college application records
 
-These
+These exported JSON files can be used  to restore sample data, test database CRUD operations and verify collection relationships.
+
 Thank you!
 
