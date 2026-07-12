@@ -103,7 +103,7 @@ Indexes are used to improve query performance on frequently searched fields.
 
 #Validation
 
-Mongoose Validation
+Mongoose Validation(Application side)
 Validation is implemented within each schema using required fields, unique constraints, enums, and regular expressions where appropriate.
 
 
@@ -115,9 +115,9 @@ Validation is implemented within each schema using required fields, unique const
      enum:["Regular","Rolling","Open","Early Action","Early Decision","Early Evaluation",].
 
 
-#MongoDB Validation
+#MongoDB Validation(Database side)
 
-MongoDB collection validators enforce required fields and acceptable values to ensure database consistency even if data is inserted outside the application.(MongoDB Compass.)
+MongoDB collection validators enforce required fields and acceptable values to ensure database consistency even if data is inserted outside the application.(Done in MongoDB Compass defined with JSON Schema validator along with setting Action and level values.)
 
 
 
