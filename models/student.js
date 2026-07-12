@@ -1,41 +1,41 @@
 import mongoose from 'mongoose';
 
-const studentSchema=new mongoose.Schema(
-    {
-  firstName:{
-    type:String,
-    required:true,
-    trim:true,
+const studentSchema = new mongoose.Schema(
+  {
+    firstName: {
+      type: String,
+      required: true,
+      trim: true,
+    },
+    lastName: {
+      type: String,
+      required: true,
+      trim: true,
+    },
+    email: {
+      type: String,
+      required: true,
+      unique: true,                                         //adds an index on email.
+      lowercase: true,
+      trim: true,
+      match: [/^\S+@\S+\.\S+$/, "Please enter a valid email address"]         //regex validation for email
+    },
+    graduationYear: {
+      type: Number,
+      required: true,
+      min: 2025,
+    },
+    gpa: {
+      type: Number,
+      min: 0,
+      max: 4,
+    },
   },
-  lastName:{
-    type:String,
-    required:true,
-    trim:true,
-  },
-  email:{
-    type:String,
-    required:true,
-    unique:true,
-    lowercase:true,
-    trim:true,
-     match: [/^\S+@\S+\.\S+$/, "Please enter a valid email address"]         //regex validation for email
-  },
-  graduationYear:{
-    type:Number,
-    required:true,
-    min:2025,
-  },
-  gpa:{
-    type:Number,
-    min:0,
-    max:4,
-  },
-},
-{timestamps:true}
+  { timestamps: true }
 );
 
 
-studentSchema.index({email:1});                   //Added an index on email.
+//studentSchema.index({email:1});                   //Added an index on email.
 export default mongoose.model("Student", studentSchema);
 
 

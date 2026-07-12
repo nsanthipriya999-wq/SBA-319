@@ -22,6 +22,7 @@ Features
 •	Validation using both MongoDB and Mongoose
 •	Sample data for testing.
 
+
 #Database Collections
 
 #Students
@@ -54,6 +55,9 @@ Example fields:
 •	notes
 
 #API Routes
+
+#Seed route to load data using data.js file
+POST http://localhost:3000/seed 
 
 #Students
 Method	        Route	                                                           Description

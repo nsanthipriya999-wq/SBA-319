@@ -49,6 +49,17 @@ export async function getApplicationsById(req,res){
         res.status(500).json({error:err.message});
     }
 };
+
+//-------------------------Get Application By Status---------------------------
+//-----------------------http://localhost:3000/applications/status/:status
+
+
+
+
+
+
+
+
 //------------------------------------create new Application createApplication()-------------- 
 export async function createApplication(req, res) {
     try {
