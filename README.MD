@@ -73,7 +73,7 @@ Method	                        Route	                                           
 GET	                       http://localhost:3000/colleges	                      Get all colleges
 GET	                       http://localhost:3000/colleges/:id	                  Get a college by ID
 POST	                   http://localhost:3000/colleges	                      Add a new college
-PUT	                       http://localhost:3000/colleges/:id	                  Update a college
+PATCH	                       http://localhost:3000/colleges/:id	                  Update a college
 DELETE	                   http://localhost:3000/colleges/:id	                  Delete a college
 
 
@@ -84,7 +84,7 @@ GET	                       http://localhost:3000/applications/:id	              
 GET                        http://localhost:3000/applications/student/:studentId	  Get applications for a specific student
 GET	                       http://localhost:3000/applications/status/:status	      Get applications by status
 POST	                   http://localhost:3000/applications	                      Add a new application
-PUT	                       http://localhost:3000/applications/:id	                  Update an application
+PATCH                      http://localhost:3000/applications/:id	                  Update an application
 DELETE	                   http://localhost:3000/applications/:id	                  Delete an application
 
 #MongoDB Indexes

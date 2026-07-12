@@ -1,4 +1,4 @@
-
+//-----------Student Collection Controller Logic------------------------------
 import Student from '../models/student.js';
 
 //------------GET-------Read All Students (getStudents())--------------------
