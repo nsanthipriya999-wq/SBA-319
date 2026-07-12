@@ -165,6 +165,13 @@ DELETE requests
 Validation errors
 Filter routes
 
+##   Documents count
+>db.students.countDocuments()
+22
+>db.colleges.countDocuments()
+25
+>db.applications.countDocuments()
+27
 ## Exported MongoDB Collection Data
 
 The data from each collection in the `test` database was exported from MongoDB Compass into separate JSON files.
