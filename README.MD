@@ -88,6 +88,7 @@ DELETE	                   http://localhost:3000/applications/:id	               
 Indexes are used to improve query performance on frequently searched fields.
 
 #Students
+
 •	email (unique)
 
 #Colleges
@@ -107,6 +108,8 @@ Validation is implemented within each schema using required fields, unique const
 
 
 •	Required student name and email
+   a` (6) is more than maximum allowed value (4)."
+       }
 •	Unique email addresses
 •	Valid email format
 •	Application status and type limited to predefined values.
@@ -115,6 +118,10 @@ Validation is implemented within each schema using required fields, unique const
 
 
 #MongoDB Validation
-MongoDB collection validators enforce required fields and acceptable values to ensure database consistency even if data is inserted outside the application.
 
+MongoDB collection validators enforce required fields and acceptable values to ensure database consistency even if data is inserted outside the application.(MongoDB Compass.)
+
+
+
+Thank you!
 

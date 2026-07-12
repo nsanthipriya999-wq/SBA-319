@@ -44,7 +44,8 @@ const collegeSchema= new mongoose.Schema(
     },
     {timestamps:true}
 );
-collegeSchema.index({name:1});                            //creates an index on name
+collegeSchema.index({name:1});                          //create an index on name
+collegeSchema.index({ state: 1 });                     //creates an index on state
 export default mongoose.model("College", collegeSchema);
 
 
