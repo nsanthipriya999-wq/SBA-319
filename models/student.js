@@ -46,6 +46,9 @@ sample:
   "graduationYear": 2026,
   "gpa": 3.85
 }
+
+route: POST http://localhost:3000/students
+
   Error response:
   {
   "error": "Student validation failed: firstName: Path `firstName` is required.,
