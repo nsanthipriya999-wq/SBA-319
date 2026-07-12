@@ -21,6 +21,35 @@ Features
 •	Validation using both MongoDB and Mongoose
 •	Sample data for testing.
 
+#Database Collections
+
+#Students
+
+Stores information about each student.
+Example fields:
+•	firstName
+•	lastName
+•	email
+•	graduationYear
+
+#Colleges
+Stores information about colleges.
+Example fields:
+•	name
+•	city
+•	state
+•	applicationDeadline
+•	applicationFee
+•	website
+Applications
+Stores applications submitted by students.
+Example fields:
+•	studentId
+•	collegeId
+•	status
+•	applicationDate
+•	decisionDate
+•	notes
 
 
 
