@@ -131,11 +131,56 @@ Validation is implemented within each schema using required fields, unique const
 
 #MongoDB Validation(Database side)
 
-MongoDB collection validators enforce required fields and acceptable values to ensure database consistency even if data is inserted outside the application.Validation done in MongoDB Compass using Validation tab defined with JSON Schema validator along with setting Action and level values and also collmod operator in mongosb shell for college schema
+MongoDB collection validators are used to enforce required fields and acceptable values, ensuring database consistency even when data is inserted outside of the application.
+
+Database validation was implemented using:
+
+   MongoDB Compass **Validation** tab with a JSON Schema validator
+   MongoDB validation settings:
+   `validationLevel: "strict"`
+   `validationAction: "error"`
+ MongoDB Shell `collMod` command to apply and modify collection validation rules
+
+The validators enforce rules such as:
+ Required fields must be present
+ Data types must match the defined schema
+ Values must fall within acceptable ranges
+ Invalid documents are rejected before being stored
+
+Example validations:
+ Student GPA must be between 0 and 4
+ Graduation year must be within the allowed range
+ College application fee cannot be negative
+ Acceptance rate must be between 0 and 100
+
+
 
 #Testing
 Testing of all above API routes done using Thunder Client.
 
+POST requests
+GET requests
+PATCH requests
+DELETE requests
+Validation errors
+Filter routes
 
+## Exported MongoDB Collection Data
+
+The data from each collection in the `test` database was exported from MongoDB Compass into separate JSON files.
+
+The exported files are stored in the `test_data` folder:
+test_data
+   test.applications.json
+   test.colleges.json
+   test.students.json
+ 
+ Each JSON file contains the documents from its corresponding MongoDB collection:
+
+  `test.students.json` — contains all student records
+  `test.colleges.json` — contains all college records
+  `test.applications.json` — contains all college application records
+
+These
 Thank you!
 
