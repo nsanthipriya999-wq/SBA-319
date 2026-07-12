@@ -56,12 +56,12 @@ export async function updateStudent(req, res) {
     }
 };
 
-//----------------Delete SStudent function (deleteStudent())--------------------------------------------
+//----------------Delete Student function (deleteStudent())--------------------------------------------
 export async function deleteStudent(req, res) {
     try {
         console.log(req.body);
         const result = await Student.findByIdAndDelete(req.params.id);
-        if (!result) {
+        if (result.length===0) {
             res.status(404).send("Application not found");
         }
         else{
