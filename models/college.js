@@ -120,5 +120,5 @@ MONGODB Validation done in COMPASS
 }
 
 
-Action set to 'warning', LEVEL to 'strict'
+Action set to 'error', LEVEL to 'strict'
 */
