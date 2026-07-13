@@ -57,7 +57,9 @@ Example fields:
 •	decisionDate
 •	notes
 ## Database Relationship
-Application collection store refernces to student Object Id and College Object Id.
+
+Application collection store refernces to student Object Id and College Object Id.'populate()' retrieves and replaces the
+referenced document Id's with the actual documents from the student and college collections.<br/><br/><br/>
                 
 
 ## API Routes <br/>
@@ -134,7 +136,8 @@ Application type must be one of: Regular, Rolling, Open, Early Action, Early Dec
   -->MongoDB Compass **Validation** tab with a JSON Schema validator  <br/>
   -->MongoDB validation settings: <br/><br/>
     -->Validation level:'strict'  <br/><br/>
-    -->`validation Action:`error' <br/><br/>
+    -->Validation action:'error'  <br/><br/>
+
  --> MongoDB Shell "collMod" command to apply and modify collection validation rules <br/>
 
 The validators enforce rules such as: <br/>
