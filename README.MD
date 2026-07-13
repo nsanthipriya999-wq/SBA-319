@@ -71,11 +71,11 @@ College  --------
 
 ## Students
 Method	        Route	                                                           Description
-GET	           http://localhost:3000/students	                                   Get all students
-GET	           http://localhost:3000/students/:id	                               Get a student by ID
-POST	         http://localhost:3000/students	                                   Create a new student
-PATCH	         http://localhost:3000/students/:id	                               Update a student
-DELETE	       http://localhost:3000/students/:id	                               Delete a student
+GET	           http://localhost:3000/students	                                   Get all students <br/>
+GET	           http://localhost:3000/students/:id	                               Get a student by ID <br/>
+POST	         http://localhost:3000/students	                                   Create a new student <br/>
+PATCH	         http://localhost:3000/students/:id	                               Update a student <br/>
+DELETE	       http://localhost:3000/students/:id	                               Delete a student <br/>
 
 
 ## Colleges
