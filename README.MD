@@ -132,9 +132,9 @@ Application type must be one of: Regular, Rolling, Open, Early Action, Early Dec
    Database validation was implemented using:
 
   -->MongoDB Compass **Validation** tab with a JSON Schema validator  <br/>
-  -->MongoDB validation settings: <br/>
- -->`validation level:'strict' <br/>
- -->`validation Action:`error' <br/>
+  -->MongoDB validation settings: <br/><br/>
+    -->Validation level:'strict'  <br/><br/>
+    -->`validation Action:`error' <br/><br/>
  --> MongoDB Shell "collMod" command to apply and modify collection validation rules <br/>
 
 The validators enforce rules such as: <br/>
