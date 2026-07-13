@@ -141,8 +141,8 @@ Indexes are used to improve query performance on frequently searched fields.
 
   -->MongoDB Compass **Validation** tab with a JSON Schema validator<br/>
   -->MongoDB validation settings:<br/>
- -->`validationLevel: "strict"`<br/>
- -->`validationAction: "error"`<br/>
+ -->`validation level:'strict'<br/>
+ -->`validation Action:`error'<br/>
  --> MongoDB Shell `collMod` command to apply and modify collection validation rules<br/>
 
 The validators enforce rules such as:
