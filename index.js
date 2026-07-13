@@ -8,17 +8,15 @@ import express from "express";
 
 const PORT = process.env.PORT || 3000;
 const app = express();
-
-
 connectDB();
 app.use(express.json());
 
 app.get("/", (req, res) => {
   res.send("Welcome to the College Application Tracker.");
 });
-app.get("/test",(req,res)=>{
+/*app.get("/test",(req,res)=>{
     res.send("route is working");
-});
+});*/
 app.use("/applications", applications);
 app.use("/students",students);
 app.use("/colleges",colleges);
