@@ -1,5 +1,4 @@
 [{
-  
   "_id": {
     "$oid": "6a53bebaa35cc6a184a9c3b3"
   },
@@ -370,6 +369,91 @@
   },
   "updatedAt": {
     "$date": "2026-07-12T22:47:29.903Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a54439e7e653fad214d897d"
+  },
+  "firstName": "Elon",
+  "lastName": "Musk",
+  "email": "elon.musk@gmail.com",
+  "graduationYear": 2026,
+  "gpa": 3.85,
+  "createdAt": {
+    "$date": "2026-07-13T01:47:10.958Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-13T01:47:10.958Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a5444147e653fad214d897e"
+  },
+  "firstName": "Satya",
+  "lastName": "Nadella",
+  "email": "satya.nadella@gmail.com",
+  "graduationYear": 2026,
+  "gpa": 3.85,
+  "createdAt": {
+    "$date": "2026-07-13T01:49:08.830Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-13T01:49:08.830Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a5444547e653fad214d897f"
+  },
+  "firstName": "lee kuan",
+  "lastName": "yew",
+  "email": "leekuan.yew@gmail.com",
+  "graduationYear": 2026,
+  "gpa": 4,
+  "createdAt": {
+    "$date": "2026-07-13T01:50:12.252Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-13T01:50:56.343Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a54535d2c26e6f3bc025add"
+  },
+  "firstName": "Prabhas",
+  "lastName": "Bahubali",
+  "email": "prabhas.bahubali@gmail.com",
+  "graduationYear": 2026,
+  "gpa": 3.85,
+  "createdAt": {
+    "$date": "2026-07-13T02:54:21.045Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-13T02:54:21.045Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a5453882c26e6f3bc025ade"
+  },
+  "firstName": "Siva",
+  "lastName": "Rudrani",
+  "email": "siva.rudrani@gmail.com",
+  "graduationYear": 2026,
+  "gpa": 4,
+  "createdAt": {
+    "$date": "2026-07-13T02:55:04.627Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-13T02:55:04.627Z"
   },
   "__v": 0
 }]

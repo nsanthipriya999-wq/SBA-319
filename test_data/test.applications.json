@@ -9,7 +9,7 @@
     "$oid": "6a53bebaa35cc6a184a9c39f"
   },
   "major": "Computer Science",
-  "status": "Planning",
+  "status": "Accepted",
   "applicationType": "Regular",
   "submittedDate": {
     "$date": "2026-07-12T16:20:10.526Z"
@@ -20,7 +20,7 @@
     "$date": "2026-07-12T16:20:10.528Z"
   },
   "updatedAt": {
-    "$date": "2026-07-12T16:20:10.528Z"
+    "$date": "2026-07-13T01:57:58.040Z"
   }
 },
 {
@@ -34,7 +34,7 @@
     "$oid": "6a53bebaa35cc6a184a9c3a0"
   },
   "major": "Engineering",
-  "status": "Started",
+  "status": "Rejected",
   "applicationType": "Early Action",
   "submittedDate": {
     "$date": "2026-07-12T16:20:10.526Z"
@@ -45,7 +45,7 @@
     "$date": "2026-07-12T16:20:10.528Z"
   },
   "updatedAt": {
-    "$date": "2026-07-12T16:20:10.528Z"
+    "$date": "2026-07-13T02:08:26.285Z"
   }
 },
 {
@@ -500,50 +500,6 @@
 },
 {
   "_id": {
-    "$oid": "6a5418d486c747e0e041b262"
-  },
-  "student": {
-    "$oid": "6a5416b7fdb3ee4fe1ba9e81"
-  },
-  "college": {
-    "$oid": "6a52b6d769e022b74412db7d"
-  },
-  "major": "Computer Science",
-  "status": "Planning",
-  "applicationType": "Early Decision",
-  "notes": "Preparing Early Decision application, essays, and recommendation letters.",
-  "createdAt": {
-    "$date": "2026-07-12T22:44:36.588Z"
-  },
-  "updatedAt": {
-    "$date": "2026-07-12T22:44:36.588Z"
-  },
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "6a5418ee86c747e0e041b263"
-  },
-  "student": {
-    "$oid": "6a5416b7fdb3ee4fe1ba9e82"
-  },
-  "college": {
-    "$oid": "6a52b6d769e022b74412db7d"
-  },
-  "major": "Law",
-  "status": "Planning",
-  "applicationType": "Early Decision",
-  "notes": "Preparing Early Decision application, essays, and recommendation letters.",
-  "createdAt": {
-    "$date": "2026-07-12T22:45:02.248Z"
-  },
-  "updatedAt": {
-    "$date": "2026-07-12T22:45:02.248Z"
-  },
-  "__v": 0
-},
-{
-  "_id": {
     "$oid": "6a541cc6cddf364028097b51"
   },
   "student": {
@@ -566,89 +522,169 @@
 },
 {
   "_id": {
-    "$oid": "6a541cf1cddf364028097b52"
+    "$oid": "6a5447117e653fad214d8985"
   },
   "student": {
-    "$oid": "6a5416b7fdb3ee4fe1ba9e82"
+    "$oid": "6a53bebaa35cc6a184a9c3c5"
   },
   "college": {
     "$oid": "6a53bebaa35cc6a184a9c39f"
   },
-  "major": "LAW",
-  "status": "Planning",
-  "applicationType": "Regular",
-  "notes": "Preparing application materials and essays.",
+  "major": "Computer Science",
+  "status": "Submitted",
+  "applicationType": "Early Action",
+  "submittedDate": {
+    "$date": "2026-01-10T00:00:00.000Z"
+  },
+  "decisionDate": {
+    "$date": "2026-03-25T00:00:00.000Z"
+  },
+  "notes": "Applied to the computer science program.",
   "createdAt": {
-    "$date": "2026-07-12T23:02:09.730Z"
+    "$date": "2026-07-13T02:01:53.133Z"
   },
   "updatedAt": {
-    "$date": "2026-07-12T23:02:09.730Z"
+    "$date": "2026-07-13T02:01:53.133Z"
   },
   "__v": 0
 },
 {
   "_id": {
-    "$oid": "6a541d15cddf364028097b53"
-  },
-  "student": {
-    "$oid": "6a5416b7fdb3ee4fe1ba9e82"
-  },
-  "college": {
-    "$oid": "6a53bebaa35cc6a184a9c3a4"
-  },
-  "major": "LAW",
-  "status": "Planning",
-  "applicationType": "Regular",
-  "notes": "Preparing application materials and essays.",
-  "createdAt": {
-    "$date": "2026-07-12T23:02:45.355Z"
-  },
-  "updatedAt": {
-    "$date": "2026-07-12T23:02:45.355Z"
-  },
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "6a541d5acddf364028097b54"
-  },
-  "student": {
-    "$oid": "6a5416b7fdb3ee4fe1ba9e82"
-  },
-  "college": {
-    "$oid": "6a52b6d769e022b74412db80"
-  },
-  "major": "LAW",
-  "status": "Planning",
-  "applicationType": "Regular",
-  "notes": "Preparing application materials and essays.",
-  "createdAt": {
-    "$date": "2026-07-12T23:03:54.772Z"
-  },
-  "updatedAt": {
-    "$date": "2026-07-12T23:03:54.772Z"
-  },
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "6a541d6acddf364028097b55"
+    "$oid": "6a544a8a26db52fc6bbdb8b7"
   },
   "student": {
     "$oid": "6a5416b7fdb3ee4fe1ba9e81"
   },
   "college": {
-    "$oid": "6a52b6d769e022b74412db80"
+    "$oid": "6a53bebaa35cc6a184a9c39f"
   },
   "major": "Computer Science",
-  "status": "Planning",
-  "applicationType": "Regular",
-  "notes": "Preparing application materials and essays.",
+  "status": "Accepted",
+  "applicationType": "Early Action",
+  "submittedDate": {
+    "$date": "2026-01-15T00:00:00.000Z"
+  },
+  "decisionDate": {
+    "$date": "2026-03-25T00:00:00.000Z"
+  },
+  "notes": "Applied for the undergraduate computer science program.",
   "createdAt": {
-    "$date": "2026-07-12T23:04:10.553Z"
+    "$date": "2026-07-13T02:16:42.591Z"
   },
   "updatedAt": {
-    "$date": "2026-07-12T23:04:10.553Z"
+    "$date": "2026-07-13T02:17:22.723Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a544f458cdd34c44cf45b26"
+  },
+  "student": {
+    "$oid": "6a5416d1fdb3ee4fe1ba9e82"
+  },
+  "college": {
+    "$oid": "6a53bebaa35cc6a184a9c3a6"
+  },
+  "major": "LAW",
+  "status": "Accepted",
+  "applicationType": "Early Action",
+  "submittedDate": {
+    "$date": "2026-01-15T00:00:00.000Z"
+  },
+  "decisionDate": {
+    "$date": "2026-03-25T00:00:00.000Z"
+  },
+  "notes": "Applied for the undergraduate LAW program.",
+  "createdAt": {
+    "$date": "2026-07-13T02:36:53.379Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-13T02:38:12.120Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a544fe68cdd34c44cf45b27"
+  },
+  "student": {
+    "$oid": "6a53bebaa35cc6a184a9c3c1"
+  },
+  "college": {
+    "$oid": "6a53bebaa35cc6a184a9c3a6"
+  },
+  "major": "LAW",
+  "status": "Submitted",
+  "applicationType": "Early Action",
+  "submittedDate": {
+    "$date": "2026-01-15T00:00:00.000Z"
+  },
+  "decisionDate": {
+    "$date": "2026-03-25T00:00:00.000Z"
+  },
+  "notes": "Applied for the undergraduate LAW program.",
+  "createdAt": {
+    "$date": "2026-07-13T02:39:34.628Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-13T02:39:34.628Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a5451eb8cdd34c44cf45b28"
+  },
+  "student": {
+    "$oid": "6a53bebaa35cc6a184a9c3c1"
+  },
+  "college": {
+    "$oid": "6a53bebaa35cc6a184a9c3a9"
+  },
+  "major": "Computer Science",
+  "status": "Submitted",
+  "applicationType": "Early Action",
+  "submittedDate": {
+    "$date": "2026-01-15T00:00:00.000Z"
+  },
+  "decisionDate": {
+    "$date": "2026-03-25T00:00:00.000Z"
+  },
+  "notes": "Applied for the undergraduate  program.",
+  "createdAt": {
+    "$date": "2026-07-13T02:48:11.441Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-13T02:48:11.441Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a5452de2c26e6f3bc025adb"
+  },
+  "student": {
+    "$oid": "6a5416d1fdb3ee4fe1ba9e82"
+  },
+  "college": {
+    "$oid": "6a53bebaa35cc6a184a9c39f"
+  },
+  "major": "Medicine",
+  "status": "Accepted",
+  "applicationType": "Early Action",
+  "submittedDate": {
+    "$date": "2026-01-15T00:00:00.000Z"
+  },
+  "decisionDate": {
+    "$date": "2026-03-25T00:00:00.000Z"
+  },
+  "notes": "Applied for the undergraduate  program.",
+  "createdAt": {
+    "$date": "2026-07-13T02:52:14.461Z"
+  },
+  "updatedAt": {
+    "$date": "2026-07-13T02:52:14.461Z"
   },
   "__v": 0
 }]
