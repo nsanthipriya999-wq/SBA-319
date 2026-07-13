@@ -122,12 +122,11 @@ Indexes are used to improve query performance on frequently searched fields.
    regular expressions where appropriate.
 
 
-     •	Required student name and email<br/>
-     •	Unique email addresses<br/>
-     •	Valid email format<br/>
-     •	Application status and type limited to predefined values.<br/>
-          enum:["Planning","Started","Submitted","Accepted","Rejected","Waitlisted",]<br/>
-          enum:["Regular","Rolling","Open","Early Action","Early Decision","Early Evaluation",].<br/>
+Required student name and email.
+Email addresses must be unique.
+Email addresses must follow a valid format.
+Application status must be one of: Planning, Started, Submitted, Accepted, Rejected, or Waitlisted.
+Application type must be one of: Regular, Rolling, Open, Early Action, Early Decision, or Early Evaluation.
 
 
 ## MongoDB Validation(Database side)<br/>
