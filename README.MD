@@ -56,9 +56,8 @@ Example fields:
 •	applicationDate
 •	decisionDate
 •	notes
-
-## Database Relationships
-    Application collection store references to student ObjectId and College ObjectId. 
+## Database Relationship
+Application collection store refernces to student Object Id and College Object Id.
                 
 
 ## API Routes <br/>
@@ -132,7 +131,7 @@ Application type must be one of: Regular, Rolling, Open, Early Action, Early Dec
    MongoDb collection validators enforce required fields, data formats, and allowed values , helping maintain data consistency and integrity even when documents are inserted or updated outside the application.
    Database validation was implemented using:
 
-  -->MongoDB Compass **Validation** tab with a JSON Schema validator<br/>
+  -->MongoDB Compass **Validation** tab with a JSON Schema validator  <br/>
   -->MongoDB validation settings: <br/>
  -->`validation level:'strict' <br/>
  -->`validation Action:`error' <br/>
