@@ -131,10 +131,7 @@ Application type must be one of: Regular, Rolling, Open, Early Action, Early Dec
 
 ## MongoDB Validation(Database side)<br/>
 
-    MongoDB collection validators are used to enforce required fields and acceptable values, ensuring 
-   database consistency even when data is inserted outside of the application.
-
-
+    MongoDB collection validators enforce required fields, data formats, and allowed values, helping maintain data consistency and integrity even when documents are inserted or updated outside the application.
    
    Database validation was implemented using:
 
