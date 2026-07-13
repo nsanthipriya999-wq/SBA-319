@@ -16,10 +16,10 @@ const studentSchema = new mongoose.Schema(
     email: {
       type: String,
       required: true,
-      unique: true,                                         //adds an index on email.
+      unique: true,                                                           //adds an index on email.
       lowercase: true,
       trim: true,
-      match: [/^\S+@\S+\.\S+$/, "Please enter a valid email address"]         //regex validation for email
+      match: [/^\S+@\S+\.\S+$/, "Please enter a valid email address"]          //regex validation for email
     },
     graduationYear: {
       type: Number,
