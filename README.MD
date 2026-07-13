@@ -64,13 +64,13 @@ Student  --------
                   /
 College  --------
 
-## API Routes
+## API Routes <br/>
 
-#Seed route to load data using data.js file
+#Seed route to load data using data.js file <br/>
    .POST http://localhost:3000/seed <br/>
 
-## Students
-Method	        Route	                                                           Description
+## Students <br/>
+Method	        Route	                                                           Description <br/>
 GET	           http://localhost:3000/students	                                   Get all students <br/>
 GET	           http://localhost:3000/students/:id	                               Get a student by ID <br/>
 POST	         http://localhost:3000/students	                                   Create a new student <br/>
@@ -78,8 +78,8 @@ PATCH	         http://localhost:3000/students/:id	                              
 DELETE	       http://localhost:3000/students/:id	                               Delete a student <br/>
 
 
-## Colleges
-Method	                        Route	                                             Description
+## Colleges <br/>
+Method	                        Route	                                             Description <br/>
 GET	                       http://localhost:3000/colleges	                      Get all colleges <br/>
 GET	                       http://localhost:3000/colleges/:id	                  Get a college by ID <br/>
 POST	                     http://localhost:3000/colleges	                      Add a new college <br/>
@@ -87,8 +87,8 @@ PATCH	                     http://localhost:3000/colleges/:id	                  
 DELETE	                   http://localhost:3000/colleges/:id	                  Delete a college <br/>
 
 
-## Applications
-Method	                        Route	                                               Description
+## Applications <br/>
+Method	                        Route	                                               Description <br/>
 GET	                       http://localhost:3000/applications	                      Get all applications <br/>
 GET	                       http://localhost:3000/applications/:id	                  Get an application by ID <br/>
 GET                        http://localhost:3000/applications/student/:studentId	  Get applications for a specific student<br/>
