@@ -58,16 +58,13 @@ Example fields:
 •	notes
 
 ## Database Relationships
-Student  --------
-                  \
-                   Application store references to student ObjectId and College ObjectId. 
-                  /
-College  --------
+    Application collection store references to student ObjectId and College ObjectId. 
+                
 
 ## API Routes <br/>
 
-#Seed route to load data using data.js file <br/>
-   .POST http://localhost:3000/seed <br/>
+#Seed route to load data using data.js file <br/><br/>
+   .POST http://localhost:3000/seed <br/><br/>
 
 ## Students <br/>
 Method	        Route	                                                           Description <br/><br/>
@@ -107,8 +104,8 @@ Indexes are used to improve query performance on frequently searched fields.
 
 ## Colleges
 
-•	name
-•	state
+•	name <br/>
+•	state<br/>
 
 ## Applications
 •	studentId <br/>
@@ -117,7 +114,7 @@ Indexes are used to improve query performance on frequently searched fields.
 
 ## Validation
 
-## Mongoose Validation(Application side)
+## Mongoose Validation(Application side) <br/>
   .Validation is implemented within each schema using required fields, unique constraints, enums, and 
    regular expressions where appropriate.
 
@@ -168,11 +165,11 @@ Testing of all above API routes done using Thunder Client.<br/><br/>
 ##   Documents count <br/><br/>
 
 >db.students.countDocuments()<br/><br/>
-27
+27 <br/><br/>
 >db.colleges.countDocuments() <br/><br/>
-27
+27 <br/><br/>
 >db.applications.countDocuments() <br/><br/>
-27
+27 <br/><br/>
 
 
 ## Exported MongoDB Collection Data <br/><br/>
