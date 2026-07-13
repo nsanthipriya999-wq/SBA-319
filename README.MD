@@ -1,6 +1,6 @@
-### College Application Tracker API
+### College Application Tracker - MONGODB Database Application
 
-The College Application Tracker API is a RESTful backend application built with Node.js, Express.js, MongoDB, and Mongoose. It helps students organize and manage their college applications by storing student information, college details, and application records.
+The College Application Tracker  is a RESTful backend application built with Node.js, Express.js, MongoDB, and Mongoose. It helps students organize and manage their college applications by storing student information, college details, and application records.
 
 The API supports full CRUD (Create, Read, Update, Delete) functionality for three collections students,applications and colleges and demonstrates MongoDB data modeling, indexing, validation, and relationships between collections.
 
@@ -189,6 +189,13 @@ test_data
   `test.applications.json` — contains all college application records
 
 These exported JSON files can be used  to restore sample data, test database CRUD operations and verify collection relationships.
+
+## Important commands
+>npm init - y
+
+>npm i express dotenv mongoose
+
+>nodemon index
 
 Thank you!
 
