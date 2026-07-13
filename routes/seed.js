@@ -51,7 +51,8 @@ const majors = [
   "Electrical Engineering",
   "Environmental Science",
   "Architecture",
-  "Communications"
+  "Communications",
+  "Medicine"
 ];
 
 

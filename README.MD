@@ -168,9 +168,9 @@ Filter routes
 ##   Documents count
 
 >db.students.countDocuments()
-22
+27
 >db.colleges.countDocuments()
-25
+27
 >db.applications.countDocuments()
 27
 ## Exported MongoDB Collection Data

@@ -17,7 +17,7 @@ export async function getApplications(req,res){
 export async function getApplicationsById(req,res){
     try{
         const result=await Application.findById(req.params.id).populate("student").populate("college");
-        if(result.length===0)
+        if(!result)
         {
             return res.status(404).json({message:"Application not found"});
         }
@@ -85,7 +85,10 @@ export async function updateApplication(req, res) {
     try {
 
         console.log(req.body);
-        const application = await Application.findByIdAndUpdate(req.params.id,req.body,{new:true,runValidators:true,});
+        const application = await Application.findByIdAndUpdate(req.params.id,req.body,{returnDocument:'after',runValidators:true,});
+        if(!application){
+            return res.status(404).json({message:"Application not found"});
+        }
         return res.status(200).json(application);
 
     } catch (err) {
@@ -101,7 +104,7 @@ export async function deleteApplication(req, res) {
     try {
         console.log(req.body);
         const result = await Application.findByIdAndDelete(req.params.id);
-        if (result.length===0) {
+        if (!result) {
             res.status(404).send("Application not found");
         }
         else{

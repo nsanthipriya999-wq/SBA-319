@@ -1,5 +1,6 @@
 //-----------Student Collection Controller Logic------------------------------
 import Student from '../models/student.js';
+import mongoose from 'mongoose';
 
 //------------GET-------Read All Students (getStudents())--------------------
 // ----------------------http://localhost:3000/students	--------------------
@@ -19,7 +20,7 @@ export async function getStudents(req,res){
 export async function getStudentsById(req,res){
     try{
         const result=await Student.findById(req.params.id);
-        if(result.length===0)
+        if(!result)
         {
             return res.status(404).json({message:"Student not found"});
         }
@@ -51,8 +52,8 @@ export async function updateStudent(req, res) {
     try {
 
         console.log(req.body);
-        const result = await Student.findByIdAndUpdate(req.params.id,req.body,{new:true,runValidators:true,});
-        if (result.length===0) {
+        const result = await Student.findByIdAndUpdate(req.params.id,req.body,{returnDocument:'after',runValidators:true,});
+        if (!result) {
             res.status(404).send("Student not found");}
         else 
           return res.status(200).json(result);
@@ -69,8 +70,13 @@ export async function updateStudent(req, res) {
 export async function deleteStudent(req, res) {
     try {
         console.log(req.body);
+        if(!mongoose.Types.ObjectId.isValid(req.params.id)){
+           return res.status(400).json({
+        message:"Invalid Student ID"
+    });
+        }
         const result = await Student.findByIdAndDelete(req.params.id);
-        if (result.length===0) {
+        if (!result) {
             res.status(404).send("Student not found");
         }
         else{

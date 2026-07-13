@@ -24,6 +24,8 @@ export async function getCollegesById(req,res){
         }
         res.json(result);
     }catch(err){
+        console.log(error);
+        console.log(err.error)
         res.status(500).json({error:err.message});
     }
 };
@@ -51,8 +53,12 @@ export async function updateCollege(req, res) {
     try {
 
         console.log(req.body);
-        const result = await College.findByIdAndUpdate(req.params.id,req.body,{new:true,runValidators:true,});
-         
+        const result = await College.findByIdAndUpdate(req.params.id,req.body,{returnDocument:'after',runValidators:true,});
+         if (!result) {
+            return res.status(404).json({
+                message: "College not found"
+            });
+        }
         //await application.save();
         return res.status(200).json(result);
 
