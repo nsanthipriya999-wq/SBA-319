@@ -67,7 +67,7 @@ College  --------
 ## API Routes
 
 #Seed route to load data using data.js file
-   .POST http://localhost:3000/seed 
+   .POST http://localhost:3000/seed <br/>
 
 ## Students
 Method	        Route	                                                           Description
@@ -80,22 +80,22 @@ DELETE	       http://localhost:3000/students/:id	                               
 
 ## Colleges
 Method	                        Route	                                             Description
-GET	                       http://localhost:3000/colleges	                      Get all colleges
-GET	                       http://localhost:3000/colleges/:id	                  Get a college by ID
-POST	                     http://localhost:3000/colleges	                      Add a new college
-PATCH	                     http://localhost:3000/colleges/:id	                  Update a college
-DELETE	                   http://localhost:3000/colleges/:id	                  Delete a college
+GET	                       http://localhost:3000/colleges	                      Get all colleges <br/>
+GET	                       http://localhost:3000/colleges/:id	                  Get a college by ID <br/>
+POST	                     http://localhost:3000/colleges	                      Add a new college <br/>
+PATCH	                     http://localhost:3000/colleges/:id	                  Update a college <br/>
+DELETE	                   http://localhost:3000/colleges/:id	                  Delete a college <br/>
 
 
 ## Applications
 Method	                        Route	                                               Description
-GET	                       http://localhost:3000/applications	                      Get all applications
-GET	                       http://localhost:3000/applications/:id	                  Get an application by ID
-GET                        http://localhost:3000/applications/student/:studentId	  Get applications for a specific student
-GET	                       http://localhost:3000/applications/status/:status	      Get applications by status
-POST	                     http://localhost:3000/applications	                      Add a new application
-PATCH                      http://localhost:3000/applications/:id	                  Update an application
-DELETE	                   http://localhost:3000/applications/:id	                  Delete an application
+GET	                       http://localhost:3000/applications	                      Get all applications <br/>
+GET	                       http://localhost:3000/applications/:id	                  Get an application by ID <br/>
+GET                        http://localhost:3000/applications/student/:studentId	  Get applications for a specific student<br/>
+GET	                       http://localhost:3000/applications/status/:status	      Get applications by status <br/>
+POST	                     http://localhost:3000/applications	                      Add a new application <br/>
+PATCH                      http://localhost:3000/applications/:id	                  Update an application <br/>
+DELETE	                   http://localhost:3000/applications/:id	                  Delete an application <br/>
 
 ## MongoDB Indexes
 
@@ -111,9 +111,9 @@ Indexes are used to improve query performance on frequently searched fields.
 •	state
 
 ## Applications
-•	studentId
-•	collegeId
-•	status
+•	studentId <br/>
+•	collegeId <br/>
+•	status    <br/>
 
 ## Validation
 
@@ -122,12 +122,12 @@ Indexes are used to improve query performance on frequently searched fields.
    regular expressions where appropriate.
 
 
-     •	Required student name and email
-     •	Unique email addresses
-     •	Valid email format
-     •	Application status and type limited to predefined values.
-          enum:["Planning","Started","Submitted","Accepted","Rejected","Waitlisted",]
-          enum:["Regular","Rolling","Open","Early Action","Early Decision","Early Evaluation",].
+     •	Required student name and email<br/>
+     •	Unique email addresses<br/>
+     •	Valid email format<br/>
+     •	Application status and type limited to predefined values.<br/>
+          enum:["Planning","Started","Submitted","Accepted","Rejected","Waitlisted",]<br/>
+          enum:["Regular","Rolling","Open","Early Action","Early Decision","Early Evaluation",].<br/>
 
 
 ## MongoDB Validation(Database side)
@@ -137,11 +137,11 @@ Indexes are used to improve query performance on frequently searched fields.
 
    Database validation was implemented using:
 
-  -->MongoDB Compass **Validation** tab with a JSON Schema validator
-  -->MongoDB validation settings:
- -->`validationLevel: "strict"`
- -->`validationAction: "error"`
- --> MongoDB Shell `collMod` command to apply and modify collection validation rules
+  -->MongoDB Compass **Validation** tab with a JSON Schema validator<br/>
+  -->MongoDB validation settings:<br/>
+ -->`validationLevel: "strict"`<br/>
+ -->`validationAction: "error"`<br/>
+ --> MongoDB Shell `collMod` command to apply and modify collection validation rules<br/>
 
 The validators enforce rules such as:
  ..>Required fields must be present
