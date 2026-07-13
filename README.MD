@@ -136,59 +136,59 @@ Application type must be one of: Regular, Rolling, Open, Early Action, Early Dec
    Database validation was implemented using:
 
   -->MongoDB Compass **Validation** tab with a JSON Schema validator<br/>
-  -->MongoDB validation settings:<br/>
- -->`validation level:'strict'<br/>
- -->`validation Action:`error'<br/>
- --> MongoDB Shell `collMod` command to apply and modify collection validation rules<br/>
+  -->MongoDB validation settings: <br/>
+ -->`validation level:'strict' <br/>
+ -->`validation Action:`error' <br/>
+ --> MongoDB Shell "collMod" command to apply and modify collection validation rules <br/>
 
-The validators enforce rules such as:
- ..>Required fields must be present
- ..>Data types must match the defined schema
- ..>Values must fall within acceptable ranges
- ..>Invalid documents are rejected before being stored
+The validators enforce rules such as: <br/>
+ ..>Required fields must be present <br/>
+ ..>Data types must match the defined schema <br/>
+ ..>Values must fall within acceptable ranges <br/>
+ ..>Invalid documents are rejected before being stored <br/>
 
-## Example validations:
- ..>Student GPA must be between 0 and 4
- ..>Graduation year must be within the allowed range
- ..>College application fee cannot be negative
- ..>Acceptance rate must be between 0 and 100
+## Example validations: <br/>
+ ..>Student GPA must be between 0 and 4 <br/>
+ ..>Graduation year must be within the allowed range <br/>
+ ..>College application fee cannot be negative <br/>
+ ..>Acceptance rate must be between 0 and 100 <br/>
 
 
 
-## Testing
-Testing of all above API routes done using Thunder Client.
+## Testing<br/><br/>
+Testing of all above API routes done using Thunder Client.<br/><br/>
 
-..> POST requests
-..> GET requests
-..> PATCH requests
-..> DELETE requests
-..> Validation errors
-..> Filter routes
+..> POST requests <br/><br/>
+..> GET requests  <br/><br/>
+..> PATCH requests <br/><br/>
+..> DELETE requests <br/><br/>
+..> Validation errors <br/><br/>
+..> Filter routes <br/><br/>
 
-##   Documents count
+##   Documents count <br/><br/>
 
->db.students.countDocuments()
+>db.students.countDocuments()<br/><br/>
 27
->db.colleges.countDocuments()
+>db.colleges.countDocuments() <br/><br/>
 27
->db.applications.countDocuments()
+>db.applications.countDocuments() <br/><br/>
 27
 
 
-## Exported MongoDB Collection Data
+## Exported MongoDB Collection Data <br/><br/>
 
 The data from each collection in the `test` database was exported from MongoDB Compass into separate JSON files.
 The exported files are stored in the `test_data` folder:
 test_data
-  -->  test.applications.json
-  -->  test.colleges.json
-  -->  test.students.json
+  -->  test.applications.json <br/><br/>
+  -->  test.colleges.json  <br/><br/>
+  -->  test.students.json  <br/><br/>
  
  Each JSON file contains the documents from its corresponding MongoDB collection:
 
-  -->`test.students.json`     — contains all student records
-  -->`test.colleges.json`     — contains all college records
-  -->`test.applications.json` — contains all college application records
+  -->`test.students.json`     — contains all student records <br/><br/>
+  -->`test.colleges.json`     — contains all college records <br/><br/>
+  -->`test.applications.json` — contains all college application records <br/><br/>
 
 These exported JSON files can be used  to restore sample data, test database CRUD operations and verify collection relationships.
 
