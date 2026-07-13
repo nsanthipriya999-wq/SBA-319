@@ -1,4 +1,4 @@
-//--------Defines URLs and HTTP methods---------------------------
+//--------Defines Routes-for Application Collection--------------------------
 
 import express from 'express';
 import Application from "../models/application.js";

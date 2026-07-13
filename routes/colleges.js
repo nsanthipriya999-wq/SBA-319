@@ -1,4 +1,4 @@
-//--------Defines URLs and HTTP methods---------------------------
+//--------Routes---for Colleges collection-----------------------
 
 import express from 'express';
 //import College from "../models/college.js";

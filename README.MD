@@ -166,6 +166,7 @@ Validation errors
 Filter routes
 
 ##   Documents count
+
 >db.students.countDocuments()
 22
 >db.colleges.countDocuments()
@@ -191,11 +192,14 @@ test_data
 These exported JSON files can be used  to restore sample data, test database CRUD operations and verify collection relationships.
 
 ## Important commands
->npm init - y
 
->npm i express dotenv mongoose
+>npm init - y                   ----- Installing Dependencies
 
->nodemon index
+>npm i express dotenv mongoose  ----- Installing Express,Mongoose,Dotenv
+
+>nodemon index                  ----- Starting the Server.
+
+
 
 Thank you!
 

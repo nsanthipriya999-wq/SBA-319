@@ -1,4 +1,4 @@
-//--------Defines URLs and HTTP methods---------------------------
+//--------Defines Routes for Student collection--------------------------
 
 import express from 'express';
 import Student from "../models/student.js";
