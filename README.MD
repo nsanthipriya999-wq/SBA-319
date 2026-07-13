@@ -130,11 +130,13 @@ Indexes are used to improve query performance on frequently searched fields.
           enum:["Regular","Rolling","Open","Early Action","Early Decision","Early Evaluation",].<br/>
 
 
-## MongoDB Validation(Database side)
+## MongoDB Validation(Database side)<br/>
 
     MongoDB collection validators are used to enforce required fields and acceptable values, ensuring 
-  database consistency even when data is inserted outside of the application.
+   database consistency even when data is inserted outside of the application.
 
+
+   
    Database validation was implemented using:
 
   -->MongoDB Compass **Validation** tab with a JSON Schema validator<br/>
