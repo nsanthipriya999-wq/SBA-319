@@ -70,7 +70,7 @@ College  --------
    .POST http://localhost:3000/seed <br/>
 
 ## Students <br/>
-Method	        Route	                                                           Description <br/>
+Method	        Route	                                                           Description <br/><br/>
 GET	           http://localhost:3000/students	                                   Get all students <br/>
 GET	           http://localhost:3000/students/:id	                               Get a student by ID <br/>
 POST	         http://localhost:3000/students	                                   Create a new student <br/>
@@ -78,8 +78,8 @@ PATCH	         http://localhost:3000/students/:id	                              
 DELETE	       http://localhost:3000/students/:id	                               Delete a student <br/>
 
 
-## Colleges <br/>
-Method	                        Route	                                             Description <br/>
+## Colleges <br/><br/>
+Method	                        Route	                                             Description <br/><br/>
 GET	                       http://localhost:3000/colleges	                      Get all colleges <br/>
 GET	                       http://localhost:3000/colleges/:id	                  Get a college by ID <br/>
 POST	                     http://localhost:3000/colleges	                      Add a new college <br/>
@@ -87,8 +87,8 @@ PATCH	                     http://localhost:3000/colleges/:id	                  
 DELETE	                   http://localhost:3000/colleges/:id	                  Delete a college <br/>
 
 
-## Applications <br/>
-Method	                        Route	                                               Description <br/>
+## Applications <br/><br/>
+Method	                        Route	                                               Description <br/><br/>
 GET	                       http://localhost:3000/applications	                      Get all applications <br/>
 GET	                       http://localhost:3000/applications/:id	                  Get an application by ID <br/>
 GET                        http://localhost:3000/applications/student/:studentId	  Get applications for a specific student<br/>
